@@ -72,7 +72,6 @@ void process_document(int index, bool do_language_id, const string& input)
     check_for_error( crs_set_page_orientation_correction_mode(CRS_DISABLE));
     check_for_error( crs_set_page_cropping_mode(CRS_DISABLE));
     check_for_error( crs_set_page_deskewing_correction_mode(CRS_DISABLE));
-    check_for_error( crs_set_image_preprocess_mode(CRS_DISABLE));
     check_for_error( crs_set_extendedarabic_handwriting_processing_mode(CRS_ENABLE));
 
     check_for_error( crs_set_noise_filter(0)); //noise filter = 1-7, 0 == disable
